@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Game Concept Generator</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="prompt-box">
+            <div id="settings-pane">
+                <div class="setting-container">
+                    <label for="prompt-complexity-slider"><input type="range" class="setting-input" id="prompt-complexity-slider" min="0" max="10" value="10" step="1"></label>
+                    <p class="setting-desc" id="prompt-complexity-desc">Complexity: 10</p>
+                </div>
+            </div>
+            <input type="button" onclick="generatePrompt()" value="Generate"/>
+        </div>
+        <script src="generator.js"></script>
+    </body>
+</html>

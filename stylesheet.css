@@ -1,0 +1,70 @@
+body {
+    background-color: #bbb;
+    font-family: Verdana, sans-serif;
+}
+
+input[type="button"] {
+    font-size: 40px;
+    width: 25%;
+    margin: auto;
+    color: #333;
+    background-color: #ccc;
+    border-width: 4px;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #aaa;
+    border-color: #ccc;
+}
+
+#prompt-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#prompt-text {
+    color: #222;
+    background-color: #aaa;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 6px ridge #999;
+    width: auto;
+    margin: 10px auto auto;
+    padding: 15px;
+    box-shadow: 2px 2px 3px #444;
+    border-radius: 5px;
+}
+
+#settings-pane {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#settings-pane > .setting-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#settings-pane > .setting-container > p {
+
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+#prompt-complexity-slider {
+    background-color: #fff;
+    backface-visibility: hidden;
+}
